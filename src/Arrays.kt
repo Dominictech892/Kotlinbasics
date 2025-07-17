@@ -1,0 +1,20 @@
+import org.intellij.lang.annotations.Language
+
+fun main() {
+
+    var language = arrayOf("Kotlin","Javascript","Java")
+    println(language[1])
+
+    //Reassignment element
+    language[1] = "python"
+    println(language[1])
+
+    //looping through an array
+    for (lang in language){
+        println(lang)
+    }
+
+    //Size of an array
+    println(language.size)
+}
+
